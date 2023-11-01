@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html>
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <title>Projet 1</title>
 </head>
-
 <body>
+    <!-- Bouton de retour en haut de la page -->
+    <div class="project-back" style="text-align: center; padding: 10px;">
+        <a href="index.html">Retour</a>
+    </div>
+    
     <div id="project">
         <h2 class="project-title">Projet 1 : Nom du Projet</h2>
         <div class="project-intro">
@@ -24,24 +16,17 @@
                 Bienvenue sur la page de notre projet. Notre objectif principal était de [insérer ici l'objectif du projet]. Pour atteindre cet objectif, nous avons travaillé dur et mis en œuvre [décrire les principales étapes ou approches du projet].
             </p>
         </div>
-        <div class="project-image">
-            <img src="images/projet1.jpg" alt="Image du Projet 1">
-        </div>
-        <div class="project-description">
-            <h3>Description du Projet</h3>
-            <p>
-                [Insérer une description détaillée du projet ici. Vous pouvez expliquer les défis, les solutions, les résultats, etc.]
-            </p>
-        </div>
         
-        <!-- Afficher le PDF (compte rendu du projet) -->
+        <!-- Afficher le PDF centré -->
         <div class="project-pdf">
             <h3>Compte Rendu du Projet (PDF)</h3>
             <p>
                 Consultez le compte rendu du projet directement ici :
-                <object data="TER.pdf" type="application/pdf" width="100%" height="600px">
-                    <p>Il semble que vous n'ayez pas de lecteur PDF. Vous pouvez <a href="votre-compte-rendu.pdf">télécharger le PDF</a> au lieu.</p>
-                </object>
+                <div style="text-align: center;">
+                    <object data="TER.pdf" type="application/pdf" width="80%" height="600px" style="margin: 0 auto;">
+                        <p>Il semble que vous n'ayez pas de lecteur PDF. Vous pouvez <a href="votre-compte-rendu.pdf">télécharger le PDF</a> au lieu.</p>
+                    </object>
+                </div>
             </p>
         </div>
     </div>
